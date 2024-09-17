@@ -13,7 +13,7 @@ body {
 }
 
 img {
-  width: 332px;
+  width: 370px;
   height: 180px;
   margin: 20px auto;
   display: block;
@@ -36,7 +36,6 @@ img {
   color: white;
   font-size: 36px;
   align-items: center;
-  /* padding-left: 15px; */
   display: flex;
 }
 
@@ -44,8 +43,6 @@ img {
   width: 80px;
   height: 80px;
   margin-right: 35px;
-  /* background-color: blue;   */
-  opacity: 0.1;
 }
 
 .wrapper nav ul {
@@ -66,30 +63,29 @@ img {
 
 .container {
     display: flex;
-    justify-content: space-between; /* Разделяет колонки на равном расстоянии */
-    flex-wrap: wrap; /* Позволяет колонкам переноситься на следующую строку, если не помещаются */
+    justify-content: space-between; 
+    flex-wrap: wrap;
   }
 
 .one-post {
   border: 5px groove white;
   border-radius: 8px;
-  /* display: flex; */
-  flex: 0 1 30%; /* Колонка будет занимать 30% ширины контейнера */
+  flex: 0 1 30%; 
   margin: 10px;
 }
 
-/* .one-post.left-aside {
+ .one-post.left-aside {
     width: 30%;
 }
 
 .one-post.right-aside {
     width: 70%;
 
-} */
+} 
 
 .right-aside {
   margin: 0 10px;
-  padding: 10px;
+  padding: 20px;
   box-sizing: border-box;
 }
 .one-post.right-aside h3 {
